@@ -4,7 +4,7 @@ exports.up = function (knex) {
     table.timestamps(true, true);
   });
 };
-
+//testing
 exports.down = function (knex) {
   return knex.schema.dropTable("reservations");
 };
