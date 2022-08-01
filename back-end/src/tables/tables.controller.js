@@ -36,7 +36,7 @@ async function list(req, res, next) {
   const data = await service.list();
   res.json({ data });
 }
-
+ 
 async function create(req, res, next) {
   const table = req.body.data;
   const newTable = await service.create(table);
